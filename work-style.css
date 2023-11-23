@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #ccdbfd;
+}
+
+/*navbar*/
+.navbar {
+    padding: 1.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 3vw;
+}
+
+.logo b {
+    color: #abc4ff;
+    font-size: 3.5vw;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 6vw;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+.menu-item {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 1.6vw;
+    font-weight: 500;
+}
+
+.menu-item:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('icon/Vector.png') center center no-repeat;
+    background-size: contain;
+    z-index: -1;
+    transform: scale(3);
+    transform-origin: center;
+}
+
+.menu-item:hover {
+    color: #739bf8;
+}
+
+/*content*/
+.content {
+    padding: 2vw;
+}
+
+.title {
+    font-size: 2vw; 
+    margin-bottom: 3vw; 
+    color: #abc4ff;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 1.8vw;
+    color: #abc4ff;
+    margin-bottom: 4vw;
+    text-align: center;
+}
+
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2vw;
+    max-width: 40vw;
+}
+
+.skill {
+    text-align: center; 
+    padding: 2.5vw;
+    background-color: white;
+    min-width: 20vw;
+    margin-left: 8vw;
+    border-radius: 2.5vw;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 3vw;
+}
+
+.skill:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.3);
+}
+
+.skill img {
+    max-width: 8vw;
+    height: auto;
+    margin-bottom: 1vw;
+}
+
+.skill p {
+    font-size: 1.5vw;
+    color: #abc4ff;
+}
+
+

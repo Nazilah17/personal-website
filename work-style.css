@@ -81,7 +81,59 @@ body {
     color: #abc4ff;
     text-align: center;
 }
+ /*toggle*/
+.toggle-button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    padding: 1.5vw 11.5vw;
+    background-color: #739bf8;
+    color: white;
+    border: none;
+    border-radius: 2vw;
+    font-size: 1.2vw;
+    transition: background-color 0.3s ease;
+    margin-left: 36vw;
+    margin-bottom: 8vw;
+}
 
+.toggle-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #abc4ff;
+    border-radius: 2vw;
+    transition: transform 0.3s ease;
+}
+
+.toggle-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.toggle-button.active {
+    background-color: #739bf8;
+}
+
+.toggle-button.active .toggle-slider {
+    transform: translateX(100%);
+}
+
+.content-section {
+    display: none;
+}
+
+.skillsection.active,
+.projectsection.active {
+    display: block;
+}
+
+/*content*/
 .subtitle {
     font-size: 1.8vw;
     color: #abc4ff;
@@ -124,4 +176,36 @@ body {
     color: #abc4ff;
 }
 
+.project {
+    background-color: white;
+    padding: 4vw;
+    border-radius: 10vw;
+    max-width: 40vw;
+    margin-left: 28.5vw;
+}
 
+.project p {
+    color: #abc4ff;
+    margin-bottom: 2vw;
+    font-size: 1.2vw;
+}
+
+.project button {
+    padding: 1vw;
+    border-radius: 2vw;
+    background-color: #ccdbfd;
+    border-style: none;
+    margin-left: 11.3vw;
+}
+
+.project button:hover {
+    background-color: #abc4ff;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.3);
+}
+
+.project button a {
+    text-decoration: none;
+    color: white;
+    font-size: 1vw;
+}

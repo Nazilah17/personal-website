@@ -20,7 +20,7 @@ body {
 }
 
 .logo {
-    color: white;
+    color: #fff;
     font-size: 3vw;
 }
 
@@ -48,9 +48,9 @@ body {
 .menu-item {
     position: relative;
     text-decoration: none;
-    color: white;
+    color: #fff;
     font-size: 1.6vw;
-    font-weight: 500;
+    font-weight: 500;0
 }
 
 .menu-item:hover::before {
@@ -72,26 +72,21 @@ body {
 }
 
 /*content*/
-.hero-section {
+.section {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 5vw;
 }
 
 .image-container img {
-    max-width: 63%;
+    max-width: 19vw;
     border-radius: 10px;
     border-color: white;
     border-width: 1vw;
     border-style: solid;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
     margin-left: 10vw;
-}
-
-.image-container img {
-    width: 100%;
-    border-radius: 10px;
 }
 
 .text-container {
@@ -102,17 +97,68 @@ body {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
     min-width: 50vw;
     margin-right: 4vw;
+    margin-left: 7vw;
 }
 
-.hero-title {
+.title {
     font-family: 'Chelsea Market', sans-serif;
     font-size: 2.5vw;
     color: #abc4ff;
     margin-bottom: 1vw;
 }
 
-.hero-text {
+.text {
     font-family: 'Poppins', sans-serif;
     font-size: 1.5vw;
     color: #555;
+}
+
+/*content*/
+.description {
+    background-color: #fff;
+    padding: 3vw 20vw;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.paragraph{
+    margin-bottom: 2vw;
+    font-size: 1.2vw;
+}
+
+.description h4 {
+    color: #abc4ff;
+    font-size: 1.2vw;
+}
+
+.fun {
+    text-align: center;
+    color: #ccdbfd;
+    position: relative;
+    font-size: 1.2vw;
+}
+
+.italic {
+    color: #abc4ff;
+    font-size: 1.2vw;
+    margin-top: 2vw;
+    text-align: center;
+}
+
+.contact {
+    padding: 1vw;
+    margin-top: 2vw;
+    margin-left: 25vw;
+    border-color: #abc4ff;
+    background-color: #739bf8;
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+    font-size: 1vw;
+}
+
+.contact:hover {
+    background-color: #abc4ff;
+    color: white;
 }

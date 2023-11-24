@@ -19,7 +19,7 @@ body {
 }
 
 .logo {
-    color: white;
+    color: #fff;
     font-size: 3vw;
 }
 
@@ -39,7 +39,7 @@ body {
 
 .menu a {
     text-decoration: none;
-    color: white;
+    color: #fff;
     font-size: 2vw;
     font-weight: 500;
 }
@@ -47,7 +47,7 @@ body {
 .menu-item {
     position: relative;
     text-decoration: none;
-    color: white;
+    color: #fff;
     font-size: 1.6vw;
     font-weight: 500;
 }
@@ -88,13 +88,14 @@ body {
     cursor: pointer;
     padding: 1.5vw 11.5vw;
     background-color: #739bf8;
-    color: white;
-    border: none;
+    color: #fff;
+    border: none;    
     border-radius: 2vw;
     font-size: 1.2vw;
     transition: background-color 0.3s ease;
     margin-left: 36vw;
     margin-bottom: 8vw;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .toggle-slider {
@@ -104,6 +105,8 @@ body {
     width: 50%;
     height: 100%;
     background-color: #abc4ff;
+    border-style: solid;
+    border-color: #739bf8;
     border-radius: 2vw;
     transition: transform 0.3s ease;
 }
@@ -151,7 +154,7 @@ body {
 .skill {
     text-align: center; 
     padding: 2.5vw;
-    background-color: white;
+    background-color: #fff;
     min-width: 20vw;
     margin-left: 8vw;
     border-radius: 2.5vw;
@@ -179,7 +182,7 @@ body {
 .project {
     background-color: white;
     padding: 4vw;
-    border-radius: 10vw;
+    border-radius: 5vw;
     max-width: 40vw;
     margin-left: 28.5vw;
 }
@@ -206,6 +209,6 @@ body {
 
 .project button a {
     text-decoration: none;
-    color: white;
+    color: #fff;
     font-size: 1vw;
 }

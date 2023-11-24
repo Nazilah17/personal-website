@@ -19,7 +19,7 @@ body {
 }
 
 .logo {
-    color: white;
+    color: #fff;
     font-size: 3vw;
 }
 
@@ -39,7 +39,7 @@ body {
 
 .menu a {
     text-decoration: none;
-    color: white;
+    color: #fff;
     font-size: 2vw;
     font-weight: 500;
 }
@@ -47,7 +47,7 @@ body {
 .menu-item {
     position: relative;
     text-decoration: none;
-    color: white;
+    color: #fff;
     font-size: 1.6vw;
     font-weight: 500;
 }
@@ -85,7 +85,7 @@ body {
 }
 
 .myblog {
-    background-color: white;
+    background-color: #fff;
     min-width: 20vw;
     padding: 2vw;
     border-radius: 2.5vw;
